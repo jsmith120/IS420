@@ -3,7 +3,6 @@
 
 <head>
     <link rel="stylesheet" href="./styles.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.js"></script>
     <title>
         Healthy Living Consulting Project
     </title>
@@ -12,30 +11,42 @@
 <body>
 <div class="tab">
   <button class="tablinks" onclick="vegetableDropDown(event, 'Vegetables')">Vegetables</button>
-  <button class="tablinks" onclick="openCategory(event, 'Diseases')">Diseases/Symptoms</button>
+  <button class="tablinks" onclick="diseaseDropDown(event, 'Diseases')">Diseases/Symptoms</button>
 </div>
 <!-- Tab content -->
 <div id="Vegetables" class="tabcontent">
   <h3>Vegetables</h3>
   <p>Select a vegetable.</p>
-  <button onclick="vegetableDropDown(this)" class="dropbtn">Dropdown</button>
+  <button onclick="vegetableDropDown(this)" class="dropbtn">Select Vegetable</button>
   <div id="vegetableDropdown" class="dropdown-content"></div>
 </div>
 <div id="Diseases" class="tabcontent">
   <h3>Diseases and Symptoms</h3>
   <p>Select a disease or symptom.</p>
-  <button onclick="disDropDown()" class="dropbtn">Dropdown</button>
-  <div id="diseaseDropdown" class="dropdown-content">
-    <a href="#">d 1</a>
-    <a href="#">d 2</a>
-    <a href="#">d 3</a>
-    <a href="#">d 4</a>
-    <a href="#">d 5</a>
-    <a href="#">d 6</a>
-    <a href="#">d 7</a>
-    <a href="#">d 8</a>
-    <a href="#">d 9</a>
-    <a href="#">d 10</a>
+  <button onclick="diseaseDropDown(this)" class="dropbtn">Select Disease</button>
+  <div id="diseaseDropdown" class="dropdown-content"></div>
+</div>
+
+<div id="veg-container">
+  <h1 id="heading"></h1>
+  <div style="float: left">
+  <img id="displayImg" />
+  </div>
+  <div class="box-padding">
+    <h2>Description</h2>
+    <div id="description-body"></div>
+    <h2>Uses</h2>
+    <div id="uses-body">Uses</div>
+  </div>
+</div>
+
+<div id="disease-container">
+  <h1 id="dis-heading"></h1>
+  <div>
+    <h2>Description</h2>
+    <div id="disease-description-body"></div>
+    <h2>Vegetables used for treatment!</h2>
+    <div id="disease-uses-body"></div>
   </div>
 </div>
 
@@ -44,9 +55,6 @@
 </html>
 
 <script src="data.js"></script>
-<script>
-  console.log();
-</script>
 <script src="app.js"></script>
 
 

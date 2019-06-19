@@ -118,3 +118,31 @@ h1 {
   border: 1px solid #ccc;
   border-top: none;
 }
+
+#veg-container {
+  display: none;
+}
+
+#disease-container {
+  display:none;
+  width:100%;
+}
+
+.box-padding {
+  margin-left: 510px;
+}
+
+div.image {
+  float: left;
+  clear: both;
+  width:50%;
+}
+
+.theImage {
+  max-width: 500px;
+}
+
+.veg-uses {
+  display: inline-block;
+  width:70%;
+}

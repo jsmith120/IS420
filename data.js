@@ -63,176 +63,185 @@ var vegetable = {
 
 var disease = {
     anemia: {
+        name: "Anemia",
         description: "Anemia is a disease or condition where you do not have enought healthy red blood cells to carry enough oxygen to tissues throughout the body. It can make you feel very weak and tired.",
         vegetables: [{
-            name: "Bell Peppers",
+            key: "bellPeppers",
             use: "The vitamin C in bell peppers help reduce the risk of anemia."
         }
 
         ]
     },
     cancer: {
+        name: "Cancer",
         description: "Cancer is the abnormal growth of cells. There are over 100 different types of cancer and the symptoms can vary widelt depending on the type. Treatments often include chemotherapy and radiation.",
         vegetables: [{
-            name: "Beets",
+            key: "beets",
             use: "Beets help reduce inflammation that common with cancer."
         },
         {
-            name: "Broccoli",
+            key: "broccoli",
             use: "Broccoli reduces the risk of getting many different types of cancer and it also helps to stop the spread of cancer."
         },
         {
-            name: "Carrots",
+            key: "carrots",
             use: "Carrots help reduce the risk of getting several types of cancer including prostate cancer, colon cancer, and stomach cancer."
         },
         {
-            name: "Cauliflower",
+            key: "cauliflower",
             use: "Cauliflower helps to reduce the risk of getting cancer and it also helps to slow down or stop the sread of already existing cancer."
         },
         {
-            name: "Green Peas",
+            key: "greenPeas",
             use: "Green peas have plant compunds that are known to help prevent caqncer from forming."
         },
         {
-            name: "Kale",
+            key: "kale",
             use: "Kale can help to prevent the formation and spread of cancer."
         },
         {
-            name: "Onions",
+            key: "onions",
             use: "Onions have properties that help to fight off existing cancer and help to prevent people from getting cancer."
         },{
-            name: "Spinach",
+            key: "spinach",
             use: "Spinach has plant compunds that help to slow down the growth as spread of cancer."
         }
 
         ]
     },
     dementia: {
+        name: "Dementia",
         description: "Dementia is the decline in memory or other thinking skills that is severe enough to reduce tha ability of a person to complete normal, everyday activities. Many times it manifests in the form of Alzheimers.",
         vegetables: [{
-            name: "Beets",
+            key: "beets",
             use: "Beets are able to help reduce the risk of developing dementia as a person ages."
         },
         {
-            name: "Cauliflower",
+            key: "cauliflower",
             use: "Cauliflower contains nutrients to help reduce the risk of developing dementia."
         },
 
         ]
     },
     diabetes: {
+        name: "Diabetes",
         description: "Diabetes is a disease where your blood sugar levels are too high due to your body not producing insulin. You must use insulin to help the sugar get into the cells where it can be used in the proper way. ",
         vegetables: [{
-            name: "Green Peas",
+            key: "greenPeas",
             use: "Green Peas can help to regulate blood sugar which helps regulate diabetes. They also help to prevent the onset of diabetes."
         },
         {
-            name: "Kale",
+            key: "kale",
             use: "Kale can help to prevent the onset of diabetes."
         },
         {
-            name: "Onions",
+            key: "onions",
             use: "Onions help to regulate blood sugar which helps regulate diabetes. They can also help to prevent the onset of diabetes."
         }
 
         ]
     },
     eyeDisease: {
-        description: "The two most commmon types of age related eye disease are macular degeneration and cataracts. Macular degeneration is when the central portion of the retina deteriorates. A cataract is a closuding of the lens in your eye negatively affects vision.",
+        name: "Eye Disease",
+        description: "The two most commmon types of age related eye disease are macular degeneration and cataracts. Macular degeneration is when the central portion of the retina deteriorates. A cataract is a clouding of the lens in your eye negatively affects vision.",
         vegetables: [{
-            name: "Bell Peppers",
+            key: "bellPeppers",
             use: "Bell peppers can help to reduce the formation of cataracts and help to reduce the chance of macular degeneration."
         },
         {
-            name: "Broccoli",
+            key: "broccoli",
             use: "Broccoli can help to reduce the formation of cataracts and help to reduce the chance of macular degeneration."
         },
         {
-            name: "Carrots",
+            key: "carrots",
             use: "Carrots can help to reduce the risk of macular degeneration."
         },
         {
-            name: "Green Beans",
+            key: "greenBeans",
             use: "Green beans can help to reduce the risk of cataracts forming in your eyes."
         },
         {
-            name: "Kale",
+            key: "kale",
             use: "Kale can help to reduce the formation of cataracts and help to reduce the chance of macular degeneration."
         },
         {
-            name: "Spinach",
+            key: "spinach",
             use: "Spinach can help to reduce the formation of cataracts and help to reduce the chance of macular degeneration."
         }
 
         ]
     },
     heartDisease: {
+        name: "Heart Disease",
         description: "Heart disease or cardiovascular disease is a consition where the blood vessels are either narrowed or blocked and it can lead to heart attacks.",
         vegetables: [{
-            name: "Beets",
+            key: "beets",
             use: "Beets can help reduce the risk of getting heart disease and they can also help fight inflammation that is common with heart disease."
         },
         {
-            name: "Carrots",
+            key: "carrots",
             use: "Carrots help to reduce cholesterol which will reduce the risk of getting heart disease."
         },
         {
-            name: "Cauliflower",
+            key: "cauliflower",
             use: "Cauliflower can reduce the risk of a person getting heart disease."
         },
         {
-            name: "Green Peas",
+            key: "greenPeas",
             use: "Green peas can help to reduce the risk of a person getting heart disease."
         },
         {
-            name: "Kale",
+            key: "kale",
             use: "Kale lowers cholesterol which will help to prevent a person from getting heart disease."
         },
         {
-            name: "Spinach",
+            key: "spinach",
             use: "Spincah helps to moderate blood pressure levels which will help to reduce the risk of getting heart disease."
         }
 
         ]
     },
     liverDisease: {
+        name: "Liver Disease",
         description: "Liver disease such as cirrhosis is a scarring of the liver. A scar tissue forms on your liver and  it soes not perform in the same way that healthy tissue does, like fighitng infections, cleaning blood, and digesting food. This can lead to easy bruising, swelling in the abdomen or legs, and many other things.",
         vegetables: [{
-            name: "Cauliflower",
+            key: "cauliflower",
             use: "Cauliflower contains nutrients that help to reduce the risk of developing liver diseases."
         }
 
         ]
     },
     obesity: {
+        name: "Obesity",
         description: "Obesity is when a person has an excess amount of body fat. This can cause many other health issues that can become even worse and might be harder to treat when someone is obese.",
         vegetables: [{
-            name: "Beets",
+            key: "beets",
             use: "Beets help to reduce inflammation that is common with obesity."
         },
         {
-            name: "Carrots",
+            key: "carrots",
             use: "Carrots are a great food to eat when trying to lose weight and therefore can help a person prevent or battle obesity."
         },
         {
-            name: "Cauliflower",
+            key: "cauliflower",
             use: "Cauliflower is a good food to eat when trying to lose weight therefore it can help a person prevent or battle obesity."
         },
         {
-            name: "Kale",
+            key: "kale",
             use: "Kale is a very good weight loss food. It is a great thing to help a person prevent obesity or try to lose weight and fight obesity."
         }
 
         ]
     },
     osteoperosis: {
+        name: "Osteporosis",
         description: "Osteoporosis is a disease where the density and the quality of the bone are reduced. The bone becomes porous and this leads to a much greater risk of breaks and fractures. There are no symptoms until a fracture occurrs.",
         vegetables: [{
-            name: "Kale",
+            key: "kale",
             use: "Kale can help strengthen bones and help to prevent people from getting osteoporosis."
         },
         {
-            name: "Onions",
+            key: "onions",
             use: "Onions support bone health and can help to prevent people from getting osteoporosis."
         }
 
